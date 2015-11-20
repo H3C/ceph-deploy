@@ -183,6 +183,7 @@ class Apt(PackageManager):
         'DEBIAN_PRIORITY=critical',
         'apt-get',
         '--assume-yes',
+        '--force-yes',
         '-q',
     ]
     name = 'apt'
